@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Jan Laurenz Maggay — Computer Science Graduate and Web Developer." />
+  <title>Jan Laurenz Maggay — Web Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="noise"></div>
+  <header class="header">
+    <a class="brand" href="#home">JLM<span>.</span></a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false"><i></i><i></i></button>
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="active" href="#home">Home</a><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="orb orb-one"></div><div class="orb orb-two"></div>
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span></span> Available for opportunities</p>
+        <h1>Building the web<br>with <em>purpose.</em></h1>
+        <p class="intro">I’m <strong>Jan Laurenz Maggay</strong>, a Computer Science graduate and emerging full-stack developer who turns practical ideas into thoughtful, reliable web applications.</p>
+        <div class="hero-actions"><a class="button primary" href="#projects">View my projects <b>↗</b></a><a class="button ghost" href="#contact">Contact me</a></div>
+        <div class="hero-meta"><span>WEB DEVELOPMENT</span><span>FULL-STACK APPS</span><span>2026</span></div>
+      </div>
+      <div class="portrait-wrap reveal">
+        <div class="portrait-ring ring-a"></div><div class="portrait-ring ring-b"></div>
+        <div class="portrait">
+          <!-- Replace this fallback with: <img src="assets/jan-laurenz-maggay.jpg" alt="Jan Laurenz Maggay"> -->
+          <div class="portrait-initials">J<span>L</span>M</div><p>JAN LAURENZ<br>MAGGAY</p>
+        </div>
+        <div class="portrait-tag"><span></span> developer / 01</div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="section-label reveal">01 / About</div>
+      <div class="about-content reveal"><p class="big-copy">A curious builder focused on creating digital experiences that are <em>useful, accessible,</em> and made to last.</p><div class="about-grid"><p>As a BS Computer Science graduate (2022—2026), I have built and deployed database-driven applications that solve real operational problems.</p><p>My interests span web development, software engineering, automation, API-powered systems, and the evolving possibilities of AI and machine learning.</p></div></div>
+    </section>
+
+    <section class="section skills" id="skills">
+      <div class="section-heading reveal"><div class="section-label">02 / Toolkit</div><h2>Tools for turning<br>ideas into <em>systems.</em></h2></div>
+      <div class="skill-grid">
+        <article class="skill-card reveal"><b>01</b><h3>Frontend</h3><p>HTML / CSS<br>JavaScript / React<br>Responsive interfaces</p></article>
+        <article class="skill-card reveal"><b>02</b><h3>Backend</h3><p>PHP / Laravel<br>MySQL / Eloquent<br>REST API integration</p></article>
+        <article class="skill-card reveal"><b>03</b><h3>Workflow</h3><p>Git & GitHub<br>Docker / Deployment<br>Automation</p></article>
+        <article class="skill-card reveal"><b>04</b><h3>Exploring</h3><p>AI learning<br>Machine learning<br>Practical innovation</p></article>
+      </div>
+    </section>
+
+    <section class="section projects" id="projects">
+      <div class="section-heading reveal"><div class="section-label">03 / Selected work</div><h2>Projects with<br><em>real-world</em> intent.</h2></div>
+      <div class="project-list">
+        <article class="project reveal"><div class="project-no">01</div><div class="project-title"><p>Laravel · MySQL · Live</p><h3>Library Management<br>System</h3></div><p class="project-description">A production-deployed platform for Subic National High School, designed to make library operations simpler and more accountable.</p><div class="project-tags"><span>Catalog</span><span>Borrowing</span><span>Fines</span><span>Inventory</span></div><button class="project-plus" aria-label="View project details">+</button><div class="project-detail">Book and member management, borrowing and return workflows, overdue tracking, fine calculations, CRUD interfaces, Blade templates, Eloquent ORM, and relational database design.</div></article>
+        <article class="project reveal"><div class="project-no">02</div><div class="project-title"><p>React · PHP · MySQL</p><h3>Automated Entrance<br>Examination System</h3></div><p class="project-description">A database-driven assessment experience that streamlines examination administration for applicants and staff.</p><div class="project-tags"><span>Assessment</span><span>Workflow</span><span>PHP API</span></div><button class="project-plus" aria-label="View project details">+</button><div class="project-detail">A React-powered frontend with a Vanilla PHP backend, managing applicant assessments, examination workflows, and data-driven records.</div></article>
+        <article class="project reveal"><div class="project-no">03</div><div class="project-title"><p>Web App · QR</p><h3>QR Event<br>Ticketer</h3></div><p class="project-description">A practical ticketing application that takes event organizers from registration to a clean, trackable check-in.</p><div class="project-tags"><span>QR Codes</span><span>Check-in</span><span>Records</span></div><button class="project-plus" aria-label="View project details">+</button><div class="project-detail">Includes event registration, ticket and QR generation, QR scanning, attendee information management, ticket records, and event check-in.</div></article>
+      </div>
+    </section>
+
+    <section class="section services" id="services"><div class="service-card reveal"><div><p class="eyebrow">04 / What I do</p><h2>Web development<br>for the <em>real world.</em></h2></div><div class="service-copy"><p>I develop modern, responsive, functional web applications—from polished frontends to database-driven backends and integrations.</p><ul><li>Frontend & responsive websites</li><li>Backend & database integration</li><li>API integration & automation</li><li>Full-stack web applications</li></ul></div></div></section>
+
+    <section class="section experience" id="experience"><div class="section-label reveal">05 / Project experience</div><div class="experience-content reveal"><h2>Learning by<br><em>shipping.</em></h2><p>My foundation comes from academic and independent development work: identifying needs, designing data structures, building interfaces, testing workflows, and deploying applications people can use.</p><div class="stat-row"><div><b>03+</b><span>Substantial applications</span></div><div><b>01</b><span>Live production deployment</span></div><div><b>∞</b><span>Problems worth solving</span></div></div></div></section>
+
+    <section class="section contact" id="contact"><div class="contact-head reveal"><div class="section-label">06 / Contact</div><h2>Let’s make<br>something <em>useful.</em></h2><a href="mailto:maggayjanlaurenz@gmail.com">maggayjanlaurenz@gmail.com <b>↗</b></a><div class="socials"><a href="https://github.com/StazJF" target="_blank" rel="noreferrer">GitHub</a><a href="https://www.linkedin.com/in/jan-laurenz-maggay-266920418" target="_blank" rel="noreferrer">LinkedIn</a><a href="https://instagram.com/srnrenz" target="_blank" rel="noreferrer">Instagram</a></div></div><form class="contact-form reveal" novalidate><label>Name<input name="name" required placeholder="Your name"></label><label>Email<input name="email" type="email" required placeholder="you@example.com"></label><label>Subject<input name="subject" required placeholder="What’s this about?"></label><label>Message<textarea name="message" required placeholder="Tell me about your project..."></textarea></label><button class="button primary" type="submit">Send message <b>↗</b></button><p class="form-status" aria-live="polite"></p></form></section>
+  </main>
+  <footer><a class="brand" href="#home">JLM<span>.</span></a><p>Computer Science Graduate & Web Developer</p><p>© <span id="year"></span> Jan Laurenz Maggay</p></footer>
+  <button class="to-top" aria-label="Back to top">↑</button><script src="script.js"></script>
+</body>
+</html>

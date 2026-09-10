@@ -189,6 +189,13 @@ h1 em,h2 em {
   z-index:2;
   box-shadow:0 0 0 10px #ffffff05,0 20px 90px #bdff5d15
 }
+.portrait img {
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  object-position:center;
+  border-radius:inherit;
+}
 .portrait-initials {
   font:600 4rem 'DM Mono';
   letter-spacing:-.2em;
